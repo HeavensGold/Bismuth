@@ -72,7 +72,8 @@ def bootstrap():
                 print(f, "deleted")
 
         archive_path = node.ledger_path + ".tar.gz"
-        download_file("https://bismuth.cz/ledger.tar.gz", archive_path)
+        #download_file("https://bismuth.cz/ledger.tar.gz", archive_path)
+        download_file("http://207.246.101.70/ledger.tar.gz", archive_path)
 
         with tarfile.open(archive_path) as tar:
             tar.extractall("static/")  # NOT COMPATIBLE WITH CUSTOM PATH CONFS
