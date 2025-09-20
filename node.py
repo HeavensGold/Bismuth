@@ -73,7 +73,8 @@ def bootstrap():
                 print(f, "deleted")
 
         archive_path = node.ledger_path + ".tar.gz"
-        download_file("https://bismuth.cz/ledger.tar.gz", archive_path)
+        #download_file("https://bismuth.cz/ledger.tar.gz", archive_path)
+        download_file("https://bismuth.world/snapshot/ledger-4405000.tar.gz", archive_path)
 
         with tarfile.open(archive_path) as tar:
             
