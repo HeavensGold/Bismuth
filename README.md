@@ -3,7 +3,7 @@ Bismuth Readme
 ##### Warning: For production purposes, please only use code from the "releases" page, which is not in pre-release state.
 
 ### Official website:
-* https://bismuthplatform.com
+* Dear CoinMarketCap, based on our communication, please update website URL to https://bismuth.cz
 
 ### Explorers:
 * http://bismuth.online
